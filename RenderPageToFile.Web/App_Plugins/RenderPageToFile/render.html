@@ -1,0 +1,8 @@
+<div class="render-page-to-file" ng-controller="RenderPageToFile">
+    <div class="path">{{model.config.path}}</div>
+    <button ng-click="store()" ng-disabled="inProgress">Store as File</button>
+    <div class="in-progress" ng-show="inProgress">Storing file...</div>
+    <div class="error" ng-show="wasError">An error occurred.</div>
+    <div class="error" ng-show="wasError">{{model.errorMessage}}</div>
+    <div class="success" ng-show="wasSuccess">File stored successfully.</div>
+</div>

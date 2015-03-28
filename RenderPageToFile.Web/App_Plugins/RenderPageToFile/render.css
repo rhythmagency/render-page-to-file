@@ -1,0 +1,22 @@
+.render-page-to-file .error {
+	margin-top: 5px;
+	font-weight: bold;
+	color: #F44;
+}
+
+.render-page-to-file .success {
+	margin-top: 5px;
+	font-weight: bold;
+	color: #4B4;
+}
+
+.render-page-to-file .in-progress {
+	margin-top: 5px;
+	font-weight: bold;
+	color: #888;
+}
+
+.render-page-to-file .path {
+	margin: 0 0 5px 0;
+	color: #88F;
+}

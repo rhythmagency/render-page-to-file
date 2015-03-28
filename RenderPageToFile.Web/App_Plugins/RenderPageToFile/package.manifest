@@ -1,0 +1,28 @@
+{
+    propertyEditors: [
+        {
+            alias: "RenderPageToFile",
+            name: "Render Page to File",
+            editor: {
+                view: "~/App_Plugins/RenderPageToFile/render.html",
+                valueType: "JSON"
+            },
+            prevalues: {
+                fields: [
+                    {
+                        label: "Path",
+                        description: "The virtual path to store the file at (e.g., ~/some-folder/some-file.html).",
+                        key: "path",
+                        view: "textstring"
+                    }
+                ]
+            }
+        }
+    ],
+    javascript: [
+        "~/App_Plugins/RenderPageToFile/render.controller.js"
+    ],
+    css: [
+        "~/App_Plugins/RenderPageToFile/render.css"
+    ]
+}

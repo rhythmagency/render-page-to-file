@@ -38,6 +38,9 @@
         /// <returns>
         /// An object indicating success or failure.
         /// </returns>
+        /// <remarks>
+        /// Umbraco will create a route for this action method at "/umbraco/backoffice/RenderPageToFile/Render/RenderPage".
+        /// </remarks>
         [HttpPost]
         public object RenderPage(RenderRequest request)
         {
