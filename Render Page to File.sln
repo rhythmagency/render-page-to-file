@@ -9,6 +9,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RenderPageToFile.Web", "htt
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{c3847a41-30e0-4659-a96c-fafdb81d3c0b}|RenderPageToFile.App.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51602"
 		Debug.AspNetCompiler.PhysicalPath = "RenderPageToFile.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51602\"
