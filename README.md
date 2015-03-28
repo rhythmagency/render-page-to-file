@@ -5,11 +5,10 @@ An Umbraco property editor that renders the current page at the click of a butto
 
 This is really useful, for example, when you want to give an editor the ability to update pages that need to be static files (e.g., a 500 error page).
 
-# Status
-Working. Still planning to release as an Umbraco package.
-
 # Usage Instructions
-First, create the data type in the Umbraco developer section:
+First, install the Umbraco package: https://our.umbraco.org/projects/developer-tools/render-page-to-file
+
+Next, create the data type in the Umbraco developer section:
 
 ![Data Type](assets/images/1-datatype.png?raw=true "Data Type")
 
