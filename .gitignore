@@ -1,6 +1,3 @@
-# Node modules.
-node_modules/
-
 # Folder created by NuGet.
 **/App_Data/NuGetBackup/
 
